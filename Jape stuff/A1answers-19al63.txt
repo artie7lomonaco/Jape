@@ -1,0 +1,55 @@
+0.
+pwd
+
+1.  
+cd 3/4	
+
+
+2. 
+cd ../..
+
+
+3. 
+cd ../4/3
+
+
+4.
+ls 3/4
+
+
+5.
+ls 3 3/4
+
+6.
+ls e*
+
+7.
+ls [![:lower:]]*.txt
+
+8.
+ls -r [![:lower:]]*.txt
+
+
+9.
+ls -1i [![:lower:]]*.txt
+
+10.
+ls -A
+
+11.
+If there are any adjacent duplicates found in the .txt file, then there are going to be 
+less lines since the adjacent duplicates get removed. If there are no adjacent duplicates
+then the number of lines will not change.
+
+12.
+sort -r unsorted.txt > sorted.txt
+
+13.
+ls -t | head -n1
+
+14.
+ls -t | tail -n1
+
+15.
+date -I"minutes" | cut -d"T" -f2 | cut -d"-" -f1 | tee time.txt
+ 
